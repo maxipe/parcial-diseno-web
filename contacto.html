@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Maximiliano Peña - Ficha Personal</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="scripts.js"></script>
+  </head>
+  <body class="cambia-color">
+    <header>
+      <div>
+        <h1>Ficha Personal</h1>
+        <h4>Perfil de Estudiante</h4>
+      </div>
+      <img class="boton-modo" src="luna.svg" onclick="togglemodo" />
+    </header>
+    <main>
+      <div class="primero">
+        <div>
+          <img class="foto" src="mpena.png" />
+        </div>
+
+        <div>
+          <h3>Maximiliano Peña</h3>
+          <div>
+            <a href="index.html"><button>HOME</button></a>
+            <a href="https://maxipe.github.io/coffeee/" target="_blank"
+              ><button>Local Com</button></a
+            >
+            <button>Fan Page</button>
+            <a href="contacto.html"><button>Contacto</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="segundo">
+        <form class="form-contacto">
+          <div>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" name="nombre" required />
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required />
+          </div>
+
+          <label for="comentarios">Comentarios:</label>
+          <textarea
+            name="comentarios"
+            rows="4"
+            required
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <span>© 2025 - Todos los derechos reservados</span>
+      <button>Ver en GitHub</button>
+    </footer>
+  </body>
+</html>
