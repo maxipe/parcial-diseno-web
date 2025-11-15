@@ -49,7 +49,7 @@
             rows="4"
             required
           ></textarea>
-            <button type="submit" onclick="alert('mensaje'); return false;">Enviar</button>
+            <button type="submit" onclick="if (this.form.checkValidity()) { alert('Mensaje enviado'); }">Enviar</button>
         </form>
       </div>
     </main>
